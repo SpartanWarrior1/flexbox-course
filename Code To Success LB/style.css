@@ -1,0 +1,124 @@
+#title_h1 {
+    color: purple;
+}
+
+.p_1 {
+    color: orange;
+}
+
+h1 {
+    -webkit-animation: myAnimation 5s infinite;
+    animation: myAnimation 5s infinite;
+}
+@-webkit-keyframes 'myAnimation' {
+    50%{
+        background-color: #d3d3d3;
+    }
+}
+@keyframes 'myAnimation' {
+    50%{
+        background-color: #d3d3d3;
+    }
+}
+
+body {
+    background: url('parkour_2.jpg');
+    background-size: cover;
+}
+
+.bdr {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding-top: 5px;
+    width: 115px;
+    height: 20px;
+    color: red;
+}
+
+.fnt {
+    font-family: Arial;
+}
+
+.c_fnt {
+    font-family: 'Oswald', sans-serif;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: white;    
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: red;
+}
+
+
+.package {
+    -webkit-transition: all 500ms ease-out 0.3s;
+    -moz-transition: all 500ms ease-out 0.3s;
+    -o-transition: all 500ms ease-out 0.3s;
+    transition: all 500ms ease-out 0.3s;
+    background-color: #e8e8e8;
+    color: blue;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 50px;
+    font-size: 1.2em;
+    border-bottom: 10px solid blue;
+    width: 200px;
+}
+.package:hover {
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+}
+
+#pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-bullets {
+    padding-left: 40px;
+    font-size: 1.5em;
+    list-style: square;
+}
+
+.block {
+    height: 140px;
+    width: 250px;
+    background-color: #ab3939;
+    float: left;
+    margin: 10px;
+}
+
+.table{
+    margin: 10px;
+    background-color: white;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+.td_name{
+    background-color: yellow;
+}
